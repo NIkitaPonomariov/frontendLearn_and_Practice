@@ -1,0 +1,90 @@
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  display: flex;               /* використовуємо флексбокс */
+  justify-content: center;     /* центруємо по горизонталі */
+  align-items: flex-start;     /* зверху */
+  min-height: 100vh;           /* мінімальна висота — весь екран */
+}
+
+.header {
+  display: flex;
+  align-items: flex-start;  /* вирівнюємо по верхньому краю */
+  justify-content: space-between; /* ім'я зліва, меню справа */
+  padding: 10px 20px;       /* внутрішні відступи */
+  background-color: #222;   /* приклад фону для шапки */
+  color: white;
+}
+
+.Head_text {
+  margin: 0;                /* прибираємо зайві відступи */
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.navigation {
+  margin: 0;
+  display: flex;
+  gap: 15px;                /* відстань між пунктами меню */
+}
+
+.navigation a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 12px;
+  font-weight: 600;
+}
+
+.navigation a:hover {
+  background-color: #555;
+  border-radius: 4px;
+}
+
+.container {
+  width: 60%;                /* ширина полоски */
+  background-color: #222;      /* фон полоски (чорний трохи світліший) */
+  color: white;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 8px;          /* закруглення кутів, для гарного вигляду */
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;          /* правильно */
+    background-color: transparent; /* без фону */
+}
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;               /* щоб пункти йшли в ряд */
+  background-color: transparent;
+}
+
+.menu li {
+  margin-right: 20px;          /* відстань між пунктами */
+}
+
+.menu li:last-child {
+  margin-right: 0;             /* у останнього пункту відступу немає */
+}
+
+.menu li a {
+  display: block;              /* щоб padding працював */
+  padding: 15px 20px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.menu li a:hover {
+  background-color: #555;
+}
+
+.photo {
+    width: 200px;
+}
