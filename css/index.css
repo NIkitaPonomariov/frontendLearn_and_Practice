@@ -8,7 +8,7 @@ body {
   min-height: 100vh;           /* мінімальна висота — весь екран */
 }
 
-.header {
+.header {   
   display: flex;
   align-items: flex-start;  /* вирівнюємо по верхньому краю */
   justify-content: space-between; /* ім'я зліва, меню справа */
@@ -87,4 +87,30 @@ body {
 
 .photo {
     width: 200px;
+}
+
+.second_photo{
+  width: 200px;
+}
+
+.H_photo{
+  width: 400px;
+}
+
+.about_head_text{
+  text-align: center;
+}
+
+.tech_skills_head_text{
+  text-align: center;
+}
+
+.Tech-skills-list{
+  margin-left: 220px;
+  text-align: center;
+  max-width: 300px;
+}
+
+.My-works-head-text{
+   text-align: center;
 }
