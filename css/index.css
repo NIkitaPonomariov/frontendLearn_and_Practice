@@ -1,6 +1,6 @@
 body {
   background-color: black;
-  margin: 0;
+  margin: auto;
   padding: 0;
   display: flex;               /* використовуємо флексбокс */
   justify-content: center;     /* центруємо по горизонталі */
@@ -128,7 +128,16 @@ body {
   text-align: center;
 }
 
-
+a:hover{
+  text-decoration: underline;
+}
+a:visited{
+  color: aquamarine;
+}
+a{
+  color: antiquewhite;
+  text-decoration: none;
+}
 .work-images {
     display: flex;
     flex-direction: column;
